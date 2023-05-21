@@ -1,0 +1,1076 @@
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+21:39:17 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeNew':
+..\Snake\snake.c:163:6: error: unknown field 'm_szLenght' specified in initializer
+      .m_szLenght = szNbSections,
+      ^
+..\Snake\snake.c:163:20: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+      .m_szLenght = szNbSections,
+                    ^~~~~~~~~~~~
+..\Snake\snake.c:163:20: note: (near initialization for '(anonymous).m_pHead')
+..\Snake\snake.c:164:17: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+      .m_color = &pColor,
+                 ^
+..\Snake\snake.c:164:17: note: (near initialization for '(anonymous).m_color.r')
+..\Snake\snake.c:162:24: warning: missing braces around initializer [-Wmissing-braces]
+     *pSnake = (t_snake){
+                        ^
+..\Snake\snake.c:162:24: note: (near initialization for '(anonymous)')
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:357:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+21:39:30 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeNew':
+..\Snake\snake.c:164:17: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+      .m_color = &pColor,
+                 ^
+..\Snake\snake.c:164:17: note: (near initialization for '(anonymous).m_color.r')
+..\Snake\snake.c:162:24: warning: missing braces around initializer [-Wmissing-braces]
+     *pSnake = (t_snake){
+                        ^
+..\Snake\snake.c:162:24: note: (near initialization for '(anonymous)')
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:357:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+21:39:37 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:357:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+21:44:47 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeDraw':
+..\Snake\snake.c:224:36: error: incompatible type for argument 2 of 'SDL_RenderFillRect'
+      SDL_RenderFillRect(pRenderer, (SDL_Rect){
+                                    ^
+In file included from c:\mingw\include\sdl2\sdl.h:53:0,
+                 from ..\Snake\snake.c:15:
+c:\mingw\include\sdl2\SDL_render.h:1176:29: note: expected 'const SDL_Rect * {aka const struct SDL_Rect *}' but argument is of type 'SDL_Rect {aka struct SDL_Rect}'
+ extern DECLSPEC int SDLCALL SDL_RenderFillRect(SDL_Renderer * renderer,
+                             ^~~~~~~~~~~~~~~~~~
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:370:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+21:44:53 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:370:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+21:45:29 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:370:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+21:46:57 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+21:48:02 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+..\Scene\scene.c: In function 'SceneDraw':
+..\Scene\scene.c:173:54: error: incompatible type for argument 3 of 'SnakeDraw'
+     SnakeDraw(pScene->m_pSnake, pScene->m_pRenderer, pScene->m_gameArea);
+                                                      ^~~~~~
+In file included from ..\Scene\scene.c:19:0:
+C:\Users\Garnier\Desktop\Programmation\C\Snake\GarnierAndrew\Snake/snake.h:69:9: note: expected 'const SDL_Rect * {aka const struct SDL_Rect *}' but argument is of type 'SDL_Rect {aka struct SDL_Rect}'
+ t_snake*SnakeDraw(t_snake*pSnake, SDL_Renderer*pRenderer, const SDL_Rect*pArea);
+         ^~~~~~~~~
+21:48:10 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+21:48:53 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+21:53:43 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:381:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+21:54:11 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:381:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+21:55:05 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeMove':
+..\Snake\snake.c:263:27: error: invalid operands to binary / (have 'const SDL_Rect * {aka const struct SDL_Rect *}' and 'int')
+     pParse->m_iPosX =pArea/(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING);
+                           ^
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:384:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+21:55:53 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:385:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+21:58:32 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:392:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+21:59:09 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+22:00:00 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:392:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+22:01:56 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeDraw':
+..\Snake\snake.c:225:80: error: expected '}' before ')' token
+           pArea->x + pParse->m_iPosX*(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)),
+                                                                                ^
+..\Snake\snake.c:225:81: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+           pArea->x + pParse->m_iPosX*(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)),
+                                                                                 ^
+..\Snake\snake.c:225:81: warning: statement with no effect [-Wunused-value]
+..\Snake\snake.c:226:80: error: expected ';' before ')' token
+           pArea->y + pParse->m_iPosY*(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)),
+                                                                                ^
+..\Snake\snake.c:226:80: error: expected statement before ')' token
+..\Snake\snake.c:226:81: error: expected expression before ',' token
+           pArea->y + pParse->m_iPosY*(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)),
+                                                                                 ^
+..\Snake\snake.c:226:81: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+..\Snake\snake.c:227:53: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+           (SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING),
+                                                     ^
+..\Snake\snake.c:227:53: warning: statement with no effect [-Wunused-value]
+..\Snake\snake.c:228:53: error: expected ';' before '}' token
+           (SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)});
+                                                     ^
+..\Snake\snake.c:228:54: error: expected statement before ')' token
+           (SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)});
+                                                      ^
+..\Snake\snake.c: At top level:
+..\Snake\snake.c:233:5: error: expected identifier or '(' before 'return'
+     return pSnake;
+     ^~~~~~
+..\Snake\snake.c:234:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:392:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c: In function 'SnakeDraw':
+..\Snake\snake.c:232:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^
+22:02:06 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:392:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+22:10:49 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:416:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+08:01:54 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:02:04 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:03:03 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:416:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+08:05:54 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:415:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+08:13:43 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:415:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:27:26 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:419:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:28:00 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:419:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:29:33 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:420:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:29:51 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:420:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:29:58 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:420:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:30:06 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:420:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:31:05 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeNew':
+..\Snake\snake.c:169:3: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+   pSnake->m_pHead = SectionNew(NULL, NULL, iHeadPosX, iHeadPosY, direction),
+   ^~~~~~
+..\Snake\snake.c:169:3: note: (near initialization for '(anonymous).m_szLength')
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:420:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:31:51 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeNew':
+..\Snake\snake.c:169:3: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+   pSnake->m_pHead = SectionNew(pSnake->m_pHead, pSnake->m_pTail, iHeadPosX, iHeadPosY, direction),
+   ^~~~~~
+..\Snake\snake.c:169:3: note: (near initialization for '(anonymous).m_szLength')
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:420:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+08:32:29 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeNew':
+..\Snake\snake.c:169:3: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+   pSnake->m_pHead = SectionNew(pSnake->m_pTail, pSnake->m_pHead, iHeadPosX, iHeadPosY, direction),
+   ^~~~~~
+..\Snake\snake.c:169:3: note: (near initialization for '(anonymous).m_szLength')
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:420:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+08:32:48 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:419:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:36:33 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:424:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:39:08 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:425:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+08:39:26 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:425:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+08:44:36 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function '_SnakePushback':
+..\Snake\snake.c:114:19: warning: unused variable 'iPosY' [-Wunused-variable]
+     int iPosX=-1, iPosY=-1;
+                   ^~~~~
+..\Snake\snake.c:114:9: warning: unused variable 'iPosX' [-Wunused-variable]
+     int iPosX=-1, iPosY=-1;
+         ^~~~~
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:425:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:44:50 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:425:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:45:19 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+08:48:35 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+08:49:28 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+08:51:38 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:52:21 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+08:52:45 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:54:05 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Application\\app.o" "..\\Application\\app.c" 
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeMove':
+..\Snake\snake.c:263:28: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+          if(pParse->m_iPosX>=pArea->w+pArea->x/(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)<=pArea->x)){
+             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Snake\snake.c:263:101: error: expected statement before ')' token
+          if(pParse->m_iPosX>=pArea->w+pArea->x/(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)<=pArea->x)){
+                                                                                                     ^
+..\Snake\snake.c:263:10: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+          if(pParse->m_iPosX>=pArea->w+pArea->x/(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)<=pArea->x)){
+          ^~
+..\Snake\snake.c:263:102: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'if'
+          if(pParse->m_iPosX>=pArea->w+pArea->x/(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)<=pArea->x)){
+                                                                                                      ^
+08:54:21 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+08:54:51 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:55:40 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+08:56:34 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+08:56:49 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+08:58:38 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+09:00:31 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:00:41 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+09:02:28 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:03:39 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:04:52 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:05:23 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:06:02 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:06:13 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:06:24 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:06:57 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:07:23 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Application\\app.o" "..\\Application\\app.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:07:44 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Application\\app.o" "..\\Application\\app.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:09:23 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:11:47 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:12:31 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:12:40 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:12:58 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:14:17 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:14:57 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:16:48 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:17:03 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:17:29 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:22:27 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:22:33 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:22:40 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:22:48 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+09:23:11 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:23:52 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+09:38:55 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:420:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:41:52 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+09:44:43 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+09:46:30 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+..\Scene\scene.c: In function 'SceneAnimate':
+..\Scene\scene.c:294:58: error: 'SCENE_FOOD_TIMER_MIn' undeclared (first use in this function)
+      pScene->m_foodTimer =  rand()%(SCENE_FOOD_TIMER_MAX-SCENE_FOOD_TIMER_MIn +1) + SCENE_FOOD_TIMER_MIN;
+                                                          ^~~~~~~~~~~~~~~~~~~~
+..\Scene\scene.c:294:58: note: each undeclared identifier is reported only once for each function it appears in
+09:46:38 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+09:49:22 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+..\Scene\scene.c: In function 'SceneAnimate':
+..\Scene\scene.c:295:53: error: invalid type argument of '->' (have 'SDL_Rect {aka struct SDL_Rect}')
+      pScene->m_ptFood.x = rand()%(pScene->m_gameArea->w/(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING));
+                                                     ^~
+..\Scene\scene.c:296:54: error: invalid type argument of '->' (have 'SDL_Rect {aka struct SDL_Rect}')
+      pScene->m_ptFood.y =  rand()%(pScene->m_gameArea->h/(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING));
+                                                      ^~
+09:50:55 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+..\Scene\scene.c: In function 'SceneAnimate':
+..\Scene\scene.c:297:53: error: invalid type argument of '->' (have 'SDL_Rect {aka struct SDL_Rect}')
+      pScene->m_ptFood.x = rand()%(pScene->m_gameArea->w)/(SNAKE_SECTION_SIZE + SNAKE_SECTION_SPACING);
+                                                     ^~
+09:51:24 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:28:22 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+..\Scene\scene.c: In function 'SceneAnimate':
+..\Scene\scene.c:295:53: error: invalid type argument of '->' (have 'SDL_Rect {aka struct SDL_Rect}')
+      pScene->m_ptFood.x = rand()%(pScene->m_gameArea->w)/(SNAKE_SECTION_SIZE + SNAKE_SECTION_SPACING);
+                                                     ^~
+..\Scene\scene.c:296:53: error: invalid type argument of '->' (have 'SDL_Rect {aka struct SDL_Rect}')
+      pScene->m_ptFood.y = rand()%(pScene->m_gameArea->h)/(SNAKE_SECTION_SIZE + SNAKE_SECTION_SPACING);
+                                                     ^~
+20:29:02 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+..\Scene\scene.c: In function 'SceneAnimate':
+..\Scene\scene.c:296:3: error: expected expression before '.' token
+   .y = pScene->m_gameArea.y + pScene->m_ptFood.y*(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)+(SNAKE_SECTION_SIZE+SNAKE_SECTION_SPACING)*.15,
+   ^
+20:29:40 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:31:55 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+20:32:11 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:32:21 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:420:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c:431:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+20:32:59 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+..\Scene\scene.c: In function 'SceneAnimate':
+..\Scene\scene.c:295:99: error: invalid type argument of '->' (have 'SDL_Rect {aka struct SDL_Rect}')
+      pScene->m_ptFood.x = rand()%(pScene->m_gameArea.x + pScene->m_gameArea.w - pScene->m_gameArea->x );
+                                                                                                   ^~
+20:33:04 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:33:30 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+20:33:47 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:33:54 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:34:27 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+20:35:16 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:35:36 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:36:12 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:420:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c:431:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+20:36:20 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:38:42 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:38:57 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+20:40:18 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:40:59 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:421:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c:432:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:41:38 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:41:49 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:42:52 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeIsHeadAt':
+..\Snake\snake.c:408:100: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,(pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                                                                                    ^
+..\Snake\snake.c:408:105: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,(pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                                                                                         ^
+..\Snake\snake.c:408:74: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,(pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                                                          ^
+..\Snake\snake.c:408:111: error: expected ')' before ';' token
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,(pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                                                                                               ^
+..\Snake\snake.c:410:1: error: expected ')' before '}' token
+ }
+ ^
+..\Snake\snake.c:408:28: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,(pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                            ^
+..\Snake\snake.c:408:39: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,(pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                       ^
+..\Snake\snake.c:408:42: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,(pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                          ^
+..\Snake\snake.c:410:1: error: expected ';' before '}' token
+ }
+ ^
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:422:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c: In function 'SnakeIsHeadAt':
+..\Snake\snake.c:410:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:433:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+20:42:58 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeIsHeadAt':
+..\Snake\snake.c:408:74: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                                                          ^
+..\Snake\snake.c:408:99: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                                                                                   ^
+..\Snake\snake.c:408:104: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                                                                                        ^
+..\Snake\snake.c:408:110: error: expected ')' before ';' token
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                                                                                              ^
+..\Snake\snake.c:408:28: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                            ^
+..\Snake\snake.c:408:39: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                       ^
+..\Snake\snake.c:408:42: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf(" Snake : [%d, %d] Pos : [%d,%d] \n",(pSnake->m_pTail->m_iPosX,pSnake->m_pTail->m_iPosY,iAtX,iAtY);
+                                          ^
+..\Snake\snake.c:410:1: error: expected ';' before '}' token
+ }
+ ^
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:422:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c: In function 'SnakeIsHeadAt':
+..\Snake\snake.c:410:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:433:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+20:43:01 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:422:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c:433:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:43:07 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:422:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c:433:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+20:43:55 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+20:44:12 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+20:45:11 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:45:34 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:46:08 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:46:19 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+20:47:02 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:422:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c:433:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:48:37 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeIsHeadAt':
+..\Snake\snake.c:411:1: warning: "/*" within comment [-Wcomment]
+ /**
+  
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:421:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c: In function 'SnakeIsHeadAt':
+..\Snake\snake.c:432:1: error: expected declaration or statement at end of input
+ }
+ ^
+..\Snake\snake.c:432:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+..\Snake\snake.c:419:5: warning: 'SnakeHasBittenHimself' defined but not used [-Wunused-function]
+ int SnakeHasBittenHimself(const t_snake*pSnake){
+     ^~~~~~~~~~~~~~~~~~~~~
+20:48:58 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeIsHeadAt':
+..\Snake\snake.c:411:1: warning: "/*" within comment [-Wcomment]
+ /**
+  
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:421:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c: In function 'SnakeIsHeadAt':
+..\Snake\snake.c:432:1: error: expected declaration or statement at end of input
+ }
+ ^
+..\Snake\snake.c:432:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+..\Snake\snake.c:419:5: warning: 'SnakeHasBittenHimself' defined but not used [-Wunused-function]
+ int SnakeHasBittenHimself(const t_snake*pSnake){
+     ^~~~~~~~~~~~~~~~~~~~~
+20:49:18 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:422:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c:433:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+20:50:29 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+..\Snake\snake.c: In function 'SnakeHasBittenHimself':
+..\Snake\snake.c:425:15: warning: unused variable 'pScan' [-Wunused-variable]
+     t_section*pScan=pSnake->m_pHead;
+               ^~~~~
+..\Snake\snake.c:436:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Application\\app.o" "..\\Application\\app.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:51:41 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+20:51:52 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+20:56:05 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+20:56:32 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:56:44 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:57:18 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:57:31 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+20:57:59 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+Info: Nothing to build for GarnierAndrew
+19:14:25 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+..\Scene\scene.c: In function 'SceneAnimate':
+..\Scene\scene.c:310:4: error: expected identifier before '}' token
+    }
+    ^
+19:14:27 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+..\Scene\scene.c: In function 'SceneAnimate':
+..\Scene\scene.c:310:4: error: expected identifier before '}' token
+    }
+    ^
+19:14:40 **** Incremental Build of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
+09:46:18 **** Rebuild of configuration Debug for project GarnierAndrew ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Snake\\snake.o" "..\\Snake\\snake.c" 
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Application\\app.o" "..\\Application\\app.c" 
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "Scene\\scene.o" "..\\Scene\\scene.c" 
+gcc "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Application" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Snake" "-IC:\\Users\\Garnier\\Desktop\\Programmation\\C\\1ERE ANNEE\\Snake\\GarnierAndrew\\Scene" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\MinGW\\lib\\SDL2" -o GarnierAndrew "Application\\app.o" "Scene\\scene.o" "Snake\\snake.o" "src\\main.o" -lSDL2 -lmingw32 -lSDL2main -lSDL2_ttf -lSDL2_image 
+Info: Nothing to build for GarnierAndrew
